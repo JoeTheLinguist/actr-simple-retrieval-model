@@ -42,4 +42,4 @@ Example output:
 - It is also a first step toward modeling cue-based sentence processing in ACT-R.
 
 ## Author
-Joe Marulli
+Joseph Marulli
