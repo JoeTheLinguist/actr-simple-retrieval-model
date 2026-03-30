@@ -28,14 +28,18 @@ Example output:
 ## How to Run
 
 1. Start ACT-R (see [ACT-R Reference Manual](https://act-r.psy.cmu.edu/actr7.x/reference-manual.pdf) for instructions)
-2. Load the model, either via the GUI or using the ```load``` command, e.g. (load "actr-simple-retrieval-model.lisp")
-3. Run the model, again either via the GUI or using the ```run``` command, e.g. (run 5)
+2. Load the run script, either via the GUI or using the ```load``` command, e.g. (load "run.lisp")
+- The run script will:
+-- Load the model
+-- Run it for up to 5 seconds of simulated time
+-- Write the output to ```output.txt``` (see this file for example output from a full run)
 
 ## Notes
 
-- This is a minimal demonstration model
-- It does not yet include activation dynamics or partial matching
-- It is intended as a foundation for more complex psychiolinguistic models
+- This is a minimal demonstration model.
+- It does not yet include activation dynamics or partial matching, nor does it explicitly define atomic chunks but instead relies on the ACT-R interpreter to do so.
+- It is intended as a foundation that can be augmented and modified to create more complex psychiolinguistic models.
+- It is also a first step toward modeling cue-based sentence processing in ACT-R.
 
 ## Author
 Joe Marulli

@@ -2,9 +2,6 @@
 
 (define-model simple-retrieval
 
-    ;; Verbose output
-    (sgp :v t :trace-detail high)
-
     (chunk-type goal state cue1 cue2)
     (chunk-type memory-item category number name)
 
