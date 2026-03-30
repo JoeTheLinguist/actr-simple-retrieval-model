@@ -29,10 +29,10 @@ Example output:
 
 1. Start ACT-R (see [ACT-R Reference Manual](https://act-r.psy.cmu.edu/actr7.x/reference-manual.pdf) for instructions)
 2. Load the run script, either via the GUI or using the ```load``` command, e.g. (load "run.lisp")
-- The run script will:
--- Load the model
--- Run it for up to 5 seconds of simulated time
--- Write the output to ```output.txt``` (see this file for example output from a full run)
+    * The run script will:
+        * Load the model
+        * Run it for up to 5 seconds of simulated time
+        * Write the output to ```output.txt``` (see this file for example output from a full run)
 
 ## Notes
 
